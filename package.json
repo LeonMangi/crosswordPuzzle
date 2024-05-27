@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser chrome",
+    "cy:run-docker": "docker-compose up",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-cypress": "^3.2.0",
+    "eslint-plugin-node": "^11.1.0",
+    "globals": "^15.1.0"
+  },
+  "dependencies": {
+    "cypress": "^13.10.0",
+    "cypress-real-events": "^1.12.0"
+  }
+}
